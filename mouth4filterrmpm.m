@@ -45,7 +45,7 @@ nc = 13; %averaging period
 
 
 
-for ij = 5:w
+for ij = 1:w
          baseFileName = aviFiles(ij).name;
   fullFileName = fullfile(myFolder, baseFileName);
   %fprintf('Now reading %s\n', fullFileName);
