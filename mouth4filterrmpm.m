@@ -25,7 +25,7 @@ filePattern = fullfile(myFolder, '*.avi'); %select type of files
 aviFiles   = dir(filePattern);
 w = length(aviFiles);
 
-f = 100; % frames used for normalization (mouth in normal size)
+%f = 100; % frames used for normalization (mouth in normal size)
 l = 1; % threshold of intensity, change this for 0.7 if the mouth and the line merge together
 % r = [281 359 30 13];
 bz = 27; %height of roi
